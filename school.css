@@ -2,15 +2,14 @@
     width: 100%;
     text-align: center;
     position: relative;
-    top: 8ex;
+    top: 11ex;
     background-color: rgba(240, 248, 255, 0.459);
     border-radius: 10%;
     font-family: "Satisfy";
-    font-size: x-large;
 }
 h1{
     animation: title 7s linear infinite alternate;
-    font-size: 7ex;
+    font-size: 10ex;
 }
 #list
 {

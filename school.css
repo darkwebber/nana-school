@@ -13,6 +13,7 @@ h1{
 }
 #list
 {
+    font-family: "Viaoda Libre";
     position: relative;
     top: 10ex;
     font-size: 3ex;
@@ -42,10 +43,16 @@ body{
     background: size 768px 1366px;
     background-attachment: fixed;
 }
-a:visited{
+.test:link{
+    color: goldenrod;
+}
+.test:visited{
+    color: goldenrod;
+}
+.ans:link{
     color: black;
 }
-a:link{
+.ans:visited{
     color: black;
 }
 @keyframes title{
@@ -59,7 +66,58 @@ a:link{
     100% {color: aliceblue;}
 }
 @media screen and (max-width: 800px) {
-    #head,#list {
+    #head,#list,p{
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
+  
   }
+#erra,#errt{
+    text-align: center;
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    background-position: center;
+    background-color: black;
+}
+a:link{
+    color: black;
+    font-family: "Original Surfer";
+}
+a:visited{
+    color:black;
+    font-weight: 200;
+    font-family: "Original Surfer";
+}
+.button{
+    margin-top: 55ex;
+    background-color:whitesmoke ;
+    border-radius: 1ex;
+    width: fit-content;
+    height: 4ex;
+    padding-top:1ex;
+    margin-left: 93ex;
+    text-shadow: 0.5ex;
+    padding-left: 0.5ex;
+    padding-right: 0.5ex;
+    animation: buttons 9s infinite;
+}
+p{
+    color:black;
+    margin-top: 5ex;
+    text-rendering: geometricPrecision;
+    font-family: "Nosifer";
+    font-size: 3ex;
+    background-color: gold;
+}
+@keyframes buttons{
+    0% {margin-left: 93ex;}
+    12.5% {margin-left: 46.5ex;}
+    25% {margin-left: 5ex;}
+    37.5% {margin-left: 46.5ex;}
+    50% {margin-left: 93ex;}
+    62.5% {margin-left: 139.5ex;}
+    75% {margin-left: 181ex;}
+    87.5% {margin-left: 139.5ex;}
+    100% {margin-left: 93ex;}
+}

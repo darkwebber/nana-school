@@ -69,6 +69,9 @@ body{
     #head,#list,p{
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
+    #erra,#errt{
+        background-size: cover;
+    }
   
   }
 #erra,#errt{

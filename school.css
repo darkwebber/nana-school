@@ -114,13 +114,13 @@ p{
     background-color: gold;
 }
 @keyframes buttons{
-    0% {margin-left: 93ex;}
-    12.5% {margin-left: 46.5ex;}
-    25% {margin-left: 5ex;}
-    37.5% {margin-left: 46.5ex;}
-    50% {margin-left: 93ex;}
-    62.5% {margin-left: 139.5ex;}
-    75% {margin-left: 181ex;}
-    87.5% {margin-left: 139.5ex;}
-    100% {margin-left: 93ex;}
+    0% {margin-left: 46.5%;}
+    12.5% {margin-left: 23.25%;}
+    25% {margin-left: 2.5%;}
+    37.5% {margin-left: 23.25%;}
+    50% {margin-left: 46.5%;}
+    62.5% {margin-left: 68.25%;}
+    75% {margin-left: 75.5%;}
+    87.5% {margin-left: 68.25%;}
+    100% {margin-left: 46.5%;}
 }

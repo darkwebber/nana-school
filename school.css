@@ -45,15 +45,19 @@ body{
 }
 .test:link{
     color: goldenrod;
+    font-family: "Viaoda Libre";
 }
 .test:visited{
     color: goldenrod;
+    font-family: "Viaoda Libre";
 }
 .ans:link{
     color: black;
+    font-family: "Viaoda Libre";
 }
 .ans:visited{
     color: black;
+    font-family: "Viaoda Libre";
 }
 @keyframes title{
     0% {color:violet;}

@@ -1,0 +1,58 @@
+#head{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 25%;
+    background-color: rgba(240, 248, 255, 0.459);
+    border-radius: 10%;
+    font-family: "Satisfy";
+    font-size: x-large;
+}
+h1{
+    animation: title 7s linear infinite alternate;
+}
+#list
+{
+    padding-top: 20%;
+}
+
+a{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+.test{
+    font-size: larger;
+    border-radius: 15%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+}
+.ans{
+    font-size: larger;
+    border-radius: 15%;
+    margin-left: 2%;
+}
+
+body{
+    text-align: center;
+    background-image: url(bgimg.jpg);
+    background: size 768px 1366px;
+    background-attachment: fixed;
+}
+a:visited{
+    color: black;
+}
+a:link{
+    color: black;
+}
+@keyframes title{
+    0% {color:violet;}
+    14.28% {color:indigo;}
+    28.57% {color:blue;}
+    42.85% {color:green;}
+    57.14% {color:yellow;}
+    71.42% {color:orange;}
+    85.71% {color:red;}
+    100% {color: aliceblue;}
+}

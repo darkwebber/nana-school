@@ -2,20 +2,21 @@
     width: 100%;
     text-align: center;
     position: relative;
-    top: 11ex;
+    top: 15ex;
     background-color: rgba(240, 248, 255, 0.459);
     border-radius: 10%;
-    font-family: "Satisfy";
+    
 }
-h1{
+#h1{
     animation: title 7s linear infinite alternate;
-    font-size: 10ex;
+    font-size: 9.1ex;
+    font-family: "Satisfy";
 }
 #list
 {
     font-family: "Viaoda Libre";
     position: relative;
-    top: 10ex;
+    top: 15.7ex;
     font-size: 3ex;
 }
 
